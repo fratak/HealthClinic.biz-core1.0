@@ -1,0 +1,25 @@
+{
+  "authors": [
+    "Microsoft"
+  ],
+  "description": "HealthClinic.biz",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
+    "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.5.208051316-alpha",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "NETStandard.Library": "1.6.0",
+    "Newtonsoft.Json": "9.0.1",
+    "MyHealth.Model": "1.0.0-*",
+    "System.Net.Requests": "4.0.11",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
